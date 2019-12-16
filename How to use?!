@@ -1,0 +1,37 @@
+8888888b.  d8b 888 8888888b.
+ 888 "Y88b Y8P 888 888 Y88b
+ 888 888 888 888 888
+ 888 888 888 888d888 88888b.  888 d88P 888 888
+ 888 888 888 888P "888" 88b 8888888P "888 888
+ 888 888 888 888 888 888 888 888 888 888
+ 888 .d88P 888 888 888 d88P 888 Y88b 888
+ 8888888P "888 888 88888P" 888 "Y88888
+                                                 888
+                                            Y8b d88P
+                                             "Y88P"
+
+ This script was based on the script:
+ F'Society800 gross
+
+ I just made some changes to the script to use in Termux, and to be simpler
+ to use;
+ --------------------------------------------------  -------------------------------
+ Requirements:
+ Python3
+ Python2
+ The site url cannot contain ssl (https), so always type: htt (p): //www.site>
+ Do not forget to put the / at the end of the url, it serves to enter a directory
+ of a website;
+ --------------------------------------------------  -------------------------------
+ Example:
+ python3 Dirbpy http://www.facebook.com/ wordlists / small.txt
+ --------------------------------------------------  -------------------------------
+ Searching index files:
+ python3 Dirbpy http://www.facebook.com/index wordlists / index_extensions.txt
+ will look for various extensions to index.xxx file
+ --------------------------------------------------  -------------------------------
+ Edited by Mr.Kami from AlcaTech Security.
+ --------------------------------------------------  -------------------------------
+ Be careful when using too many requests, as a Web Application FireWall (WAF) may drop your ip from the site;
+ -------------
+ Have a good time!
